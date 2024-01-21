@@ -1,0 +1,77 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "nom": "Bulbasaur",
+      "tipus": ["Planta", "Venen"],
+      "pes": 6.9,
+      "unitat_pes": "kg",
+      "altura": 0.7,
+      "unitat_altura": "m",
+      "estadistiques": {
+        "velocitat": 3,
+        "fortalesa": 3,
+        "precisio": 4,
+        "resistencia": 4
+      },
+      "moviments": [
+        {
+          "nom": "Llavor",
+          "descripcio": "Dispara llavors petites per atacar l'adversari.",
+          "potencia": 40,
+          "contacte": true
+        },
+        {
+          "nom": "Venen",
+          "descripcio": "Infligeix dany per verí a l'adversari.",
+          "potencia": 30,
+          "contacte": true
+        }
+      ],
+      "imatge": "https://www.pokemon.com/el/pokedex/bulbasaur",
+      "evolucions": [
+        {
+          "id": 2,
+          "nivell": 16
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nom": "Charmander",
+      "tipus": ["Foc"],
+      "pes": 8.5,
+      "unitat_pes": "kg",
+      "altura": 0.6,
+      "unitat_altura": "m",
+      "estadistiques": {
+        "velocitat": 3,
+        "fortalesa": 5,
+        "precisio": 4,
+        "resistencia": 3
+      },
+      "moviments": [
+        {
+          "nom": "Llançaflama",
+          "descripcio": "Allibera una flama intensa per cremar l'adversari.",
+          "potencia": 60,
+          "contacte": true
+        },
+        {
+          "nom": "Gruixuda",
+          "descripcio": "Augmenta la defensa de l'usuari.",
+          "potencia": 0,
+          "contacte": false
+        }
+      ],
+      "imatge": "https://www.pokemon.com/es/pokedex/charmander",
+      "evolucions": [
+        {
+          "id": 5,
+          "nivell": 16
+        }
+      ]
+    }
+  ]
+}
+
